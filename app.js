@@ -23,9 +23,7 @@ app.post('/', function(req,res) {
   axios({
     method: 'post',
     url: 'https://us19.api.mailchimp.com/3.0/lists/b510700302',
-    headers: {
-      'Authorization': 'Hashim f933a7d100c8a3ad229244df29471df2-us19'
-    },
+   
 
     data: {
           members: [
